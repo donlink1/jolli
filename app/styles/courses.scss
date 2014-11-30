@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'icomoon';
+
+.courses-resources {
+  color: $charcoal;
+}
+
+.courses-resource-badge {
+  border-radius: 8px;
+  border: 2px solid $charcoal;
+
+  padding: 1rem;
+  margin: 2rem;
+
+  text-align: center;
+  font-size: 1rem;
+
+  i {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  &:hover {
+    color: white;
+    background: $charcoal;
+  }
+}

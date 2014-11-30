@@ -1,0 +1,28 @@
+@import 'variables';
+  
+.row {
+  padding: 3rem;
+}
+
+.staff img {
+  display: inline-block;
+  height: 18rem;
+  margin-top: -15rem;
+  margin-right: 3rem;
+}
+
+.staff-member-info {
+  display: inline-block; 
+}
+
+p {
+  max-width: 20rem; 
+}
+
+ul li {
+  list-style: none; 
+}
+
+.muted {
+  color: #777; 
+}
