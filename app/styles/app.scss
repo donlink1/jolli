@@ -592,10 +592,29 @@ footer {
   }
 }
 
-@import "about";
-@import "contact";
-@import "courses";
-@import "faq";
+
+//
+// VIEW-SPECIFIC STYLES
+//
+
 @import "icomoon";
-@import "join";
-@import "staff_leaders";
+
+.view-about {
+  @import "about";
+}
+
+.view-contact {
+  @import "contact";
+}
+
+.view-courses {
+  @import "courses";
+}
+
+.view-faq {
+  @import "faq";
+}
+
+.view-join {
+  @import "join";
+}
