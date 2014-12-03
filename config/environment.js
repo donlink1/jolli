@@ -9,7 +9,7 @@ module.exports = function(environment) {
     contentSecurityPolicy: {
       'default-src': "'none'",
       'script-src': "'self' 'unsafe-eval' 'unsafe-inline' use.typekit.net",
-      'font-src': "'self'",
+      'font-src': "'self' data:",
       'connect-src': "'self'",
       'img-src': "'self' www.auburn.edu cdn.auburn.edu p.typekit.net",
       'style-src': "'self' 'unsafe-inline' use.typekit.net",
