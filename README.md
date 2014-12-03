@@ -28,9 +28,13 @@ It's okay if this takes a minute. There are a lot of dependencies.
 * `ember server`
 * Visit your app at http://localhost:4200.
 
+### Ember Quirks
+
 This is an Ember.js application. It uses Express (a very common, quick-deploy, and well-documented Node web server) as its server, which handles requests most immediately, and then hands those requests off to Ember to be sent through its routing hoops. 
 
 Because it is an Ember application, that means page requests aren't really new page loads (fancy AJAX magic). The whole app is one page that Ember makes *look* like several pages. 
+
+### Brief Directory Structure Breakdown
 
 `/app/index.html` is the master page for this project. It has our default head tag, etc. built in. 
 `/app/templates/application.hbs` also contains some of our master page details, but has more content in it. It contains our nav header, and our avatar.
