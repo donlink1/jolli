@@ -1,6 +1,9 @@
-/* global require, module */
+/* global require, module, __dirname */
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var mergeTrees = require('broccoli-merge-trees');
+var pickFiles = require('broccoli-static-compiler');
+var Funnel = require('broccoli-funnel');
 
 var app = new EmberApp();
 
@@ -17,4 +20,18 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
-module.exports = app.toTree();
+var tree = app.toTree();
+
+var fonts = pickFiles('bower_components/font-awesome/fonts', {
+  srcDir: '/',
+  files: ['fontawesome-webfont.eot','fontawesome-webfont.ttf','fontawesome-webfont.svg','fontawesome-webfont.woff'],
+  destDir: '/assets/fonts'
+});
+
+// var fonts = new Funnel(__dirname, {
+//   srcDir: 'bower_components/font-awesome/fonts',
+//   include: ['fontawesome-webfont.eot','fontawesome-webfont.ttf','fontawesome-webfont.svg','fontawesome-webfont.woff'],
+//   destDir: '/assets/fonts'
+// });
+
+module.exports = mergeTrees([tree, fonts]);

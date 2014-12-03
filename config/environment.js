@@ -11,7 +11,7 @@ module.exports = function(environment) {
       'script-src': "'self' 'unsafe-eval' 'unsafe-inline' use.typekit.net",
       'font-src': "'self' data:",
       'connect-src': "'self'",
-      'img-src': "'self' www.auburn.edu cdn.auburn.edu p.typekit.net",
+      'img-src': "'self' www.auburn.edu cdn.auburn.edu p.typekit.net olliatauburn.org",
       'style-src': "'self' 'unsafe-inline' use.typekit.net",
       'media-src': "'self'"
     },
