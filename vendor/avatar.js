@@ -11,8 +11,9 @@
       a.style.opacity = 1
       a.style.color = '#496e9c'
     }, 2000);
-  }, 2000)
+  }, 3000)
 
+  setTimeout(function () {
   var a = document.getElementById('avatar'),
     btn = a.children[0],
     bar = a.children[1]
@@ -177,4 +178,5 @@
 
     return false
   }
+  });
 })()
