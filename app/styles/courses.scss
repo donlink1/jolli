@@ -5,6 +5,7 @@
 }
 .row.banner {
   margin-top: none; 
+  
 }
 
 .emblem.resource-emblem {
@@ -42,7 +43,7 @@
 }
 .emblem.resource-emblem:nth-of-type(2) {
   .emblem-header { 
-    padding: 2.5rem 0;
+    padding-top: 2.5rem;
   }
   .emblem-body {
     margin-left: -1.7rem; 
@@ -59,7 +60,7 @@
 }
 .emblem.resource-emblem:nth-of-type(3) {
   .emblem-header {
-    padding: 2.5rem 0;
+    padding-top: 2.5rem;
   }
   .emblem-body {
     margin-left: -2.7rem;
