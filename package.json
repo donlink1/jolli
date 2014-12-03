@@ -47,6 +47,7 @@
     "broccoli-static-compiler": "^0.2.1",
     "connect-restreamer": "^1.0.1",
     "ember-cli": "0.1.2",
+    "ember-data": "^1.0.0-beta.12",
     "express": "^4.8.5",
     "glob": "^4.0.5"
   }
