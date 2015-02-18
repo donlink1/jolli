@@ -1,0 +1,32 @@
+<header role="banner" class="flex container">
+
+</header>
+
+<!--
+"outlet" gethers the html from the .hbs file that corresponds to the
+ current page (example: when the user clicks "Join", outlet gets the 
+ html from join.hbs and combines it with the masterpage, index.html).
+ This is achieved by the ember function in app.js that creates outlet.-->
+<main class="container" id="newContent">
+  {{outlet}}
+</main>
+
+
+<div id="avatar" class="avatar">
+  <div class="avatar-btn">
+    Need help?
+  </div>
+
+  <div class="avatar-bar">
+    <span class="avatar-helper-text">Hi! I'm here to help. </span>
+    <input type="text" placeholder="Type what you'd like help with."/>
+    <span class="avatar-close">X</span>
+  </div>
+</div>
+
+<div class="container">
+  <footer class="row">
+    <div class="avatar-bottom-margin">
+    </div>
+  </footer>
+</div>
