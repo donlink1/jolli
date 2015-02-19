@@ -65,7 +65,7 @@
             <a class="olli" href="documents/bulletinboard.pdf">Newsletter</a>
           </li>
           <li style="width: 20%">
-            <a class="olli" href="calendar">Calendar</a>
+            <a class="olli" href="documents/calendar">Calendar</a>
           </li>
           <li style="width: 19%">
             <a class="olli" href="contact">Contact Us</a>
@@ -123,59 +123,105 @@
       </div>
     </div>-->
 
-    <!--This is the "MAIN" BODY for the index page -->
+    <!--This is the "MAIN" BODY-->
     <div class="content-division col-lg-9" id="wrapper" role="main">
-      <div id="first">
-        <h2>
-          <a href="#">Upcoming Events</a>
-        </h2>
-        <ul>
-          <li class="event">
-            <div class="event-date">
-              <div class="event-date-month">OCT</div>
-              <div class="event-date-day">2</div>
-            </div>
-            <div class="event-details">
-              <a class="event-details-name"
-                  href="#"
-                  target="_blank">
-                OLLI Back to School Event
-              </a>
-              <div class="event-details-location">Jule Collins Smith Museum of Fine Arts</div>
-              <div class="event-details-time">6pm - 8pm</div>
-            </div>
-          </li>
-          <li class="event">
-            <div class="event-date">
-              <div class="event-date-month">OCT</div>
-              <div class="event-date-day">8</div>
-            </div>
-            <div class="event-details">
-              <a class="event-details-name"
-                  href="#"
-                  target="_blank">
-                Brown Bag Lunch and Learn
-              </a>
-              <div class="event-details-location">Clarion Inn &amp; Suites, Ballroom CD (2nd Floor)</div>
-              <div class="event-details-time">12n - 2pm</div>
-            </div>
-          </li>
-        </ul>
+      <h2>OLLI Calendar</h2>
+      <div>
+      <!-- Left Button--><button type="btn" class="prevButton">Prev</button>
+        <span>
+          <!-- Right Button-->
+          <button type="btn" class="nextButton">Next</button>
+        </span>
+      </div>
+      <table class="table-hover" style="width:100%">
+        <thead>
+          <tr>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td>Tueday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!--
+          <script>
+            Function GetMonth() {
+              if (Document.getElementByClass("prevButton") != null)
+              {
+                
+              }
+              for (i = 0; i < weeks; i++) {
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              }
+            }
+          </script> -->
+        </tbody>
+      </table>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>
+            <a href="https://mell-base.uce.auburn.edu/wconnect/CourseStatus.awp?&course=A1415DUES">
+              General Membership
+            </a>
+            <small>($25)</small>
+          </h2>
+          <em style="margin-top: -1rem; margin-bottom: 0;">Offered July through June</em>
+          <ul>
+            <li>Use all Auburn University libraries</li>
+            <li>Audit select Auburn University courses</li>
+            <li>Ride Tiger Transit buses</li>
+            <li>Attend seminars and workshops</li>
+            <li>Participate in extracurricular activities and socials</li>
+            <li>Receive 10% discount at the Auburn University Bookstore</li>
+          </ul>
+          <a href="https://mell-base.uce.auburn.edu/wconnect/CourseStatus.awp?&course=A1415DUES" class="btn btn-join">Join as a General Member</a>
+        </div>
 
-        <a class="events-more" href="#">More events</a>
+        <div class="col-md-6">
+          <h2>
+            <a href="https://mell-base.uce.auburn.edu/wconnect/ShowSchedule.awp?&Mode=GROUP&Group=POAAUL&Title=OLLI+Membership+at+Auburn+University&SubGroup=POA">
+              Academic Membership
+            </a>
+            <small>($140&ndash;225)</small>
+          </h2>
+          <em>Offered September through May</em>
+          <p>Includes all the benefits of general membership, and allows you to take an unlimited number of OLLI courses. OLLI courses are offered during three terms&mdash;fall, winter and spring. Each term is 21 weeks.</p>
+          Membership fees vary based on length of membership:
+          <ul>
+            <li>A single-term academic membership is $140</li>
+            <li>A two-term academic membership is $165</li>
+            <li>A three-term academic membership is $225</li>
+          </ul>
+          <p>Once payment is received, you will receive an email with a link to courses available for registration. If you purchase a multi-term academic membership, you will receive a new email before each term.</p>
+          <a href="https://mell-base.uce.auburn.edu/wconnect/ShowSchedule.awp?&Mode=GROUP&Group=POAAUL&Title=OLLI+Membership+at+Auburn+University&SubGroup=POA" class="btn btn-join">Join as an Academic Member</a>
+
+        </div>
       </div>
 
-      <div class="col-md-6 carousel" id="second">
-        <div class="carousel-wrap">
-          <div class="carousel-item">
-            <img class="carousel-item-img" src="http://olliatauburn.org/images/slideshow/1.jpg"/>
-            <div class="carousel-item-description">
-              <a href="/join" class="carousel-item-description-header btn join-btn">Join OLLI at Auburn</a>
-              <div class="carousel-item-description-body">
-                Become a member and get back into academia. <br /> Remind your mind.
-              </div>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Financial Aid</h2>
+          <p>Our mission is to cultivate a community of lifelong learners. If financial issues prevent you from becoming a member of OLLI at Auburn, please fill out our Scholarship Application form. Financial assitance may be available.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Questions?</h2>
+          <p>
+            We love hearing from you! Please call us with any questions at <a href="tel:3348445100">(344) 844-5100</a>.
+          </p>
         </div>
       </div>
     </div>
@@ -240,119 +286,60 @@
   <a href="#top"></a>
 </div>
 
-
-
-
 <!-- OLD CODE
-<div class="row banner">
-  <div class="col-md-6 events-wrap">
+<h1>Join OLLI at Auburn as a general or academic member.</h1>
+
+<div class="row">
+  <div class="col-md-6">
     <h2>
-      <a href="#">Upcoming Events</a>
+      <a href="https://mell-base.uce.auburn.edu/wconnect/CourseStatus.awp?&course=A1415DUES">
+        General Membership
+      </a>
+      <small>($25)</small>
     </h2>
+    <em style="margin-top: -1rem; margin-bottom: 0;">Offered July through June</em>
     <ul>
-      <li class="event">
-        <div class="event-date">
-          <div class="event-date-month">OCT</div>
-          <div class="event-date-day">2</div>
-        </div>
-        <div class="event-details">
-          <a class="event-details-name"
-          href="#"
-          target="_blank">
-            OLLI Back to School Event
-          </a>
-          <div class="event-details-location">Jule Collins Smith Museum of Fine Arts</div>
-          <div class="event-details-time">6pm - 8pm</div>
-        </div>
-      </li>
-      <li class="event">
-        <div class="event-date">
-          <div class="event-date-month">OCT</div>
-          <div class="event-date-day">8</div>
-        </div>
-        <div class="event-details">
-          <a class="event-details-name"
-          href="#"
-          target="_blank">
-            Brown Bag Lunch and Learn
-          </a>
-          <div class="event-details-location">Clarion Inn &amp; Suites, Ballroom CD (2nd Floor)</div>
-          <div class="event-details-time">12n - 2pm</div>
-        </div>
-      </li>
+      <li>Use all Auburn University libraries</li>
+      <li>Audit select Auburn University courses</li>
+      <li>Ride Tiger Transit buses</li>
+      <li>Attend seminars and workshops</li>
+      <li>Participate in extracurricular activities and socials</li>
+      <li>Receive 10% discount at the Auburn University Bookstore</li>
     </ul>
-    <a class="events-more" href="#">More events</a>
+    <a href="https://mell-base.uce.auburn.edu/wconnect/CourseStatus.awp?&course=A1415DUES" class="btn btn-join">Join as a General Member</a>
   </div>
 
-  <div class="col-md-6 carousel">
-    <div class="carousel-wrap">
-      <div class="carousel-item">
-        <img class="carousel-item-img" src="http://olliatauburn.org/images/slideshow/1.jpg"/>
-        <div class="carousel-item-description">
-          <a href="/join" class="carousel-item-description-header btn join-btn">Join OLLI at Auburn</a>
-          <div class="carousel-item-description-body">Become a member and get back into academia. Remind your mind.</div>
-        </div>
-      </div>
-    </div>
+  <div class="col-md-6">
+    <h2>
+      <a href="https://mell-base.uce.auburn.edu/wconnect/ShowSchedule.awp?&Mode=GROUP&Group=POAAUL&Title=OLLI+Membership+at+Auburn+University&SubGroup=POA">
+        Academic Membership
+      </a>
+      <small>($140&ndash;225)</small>
+    </h2>
+    <em>Offered September through May</em>
+    <p>Includes all the benefits of general membership, and allows you to take an unlimited number of OLLI courses. OLLI courses are offered during three terms&mdash;fall, winter and spring. Each term is 21 weeks.</p>
+    Membership fees vary based on length of membership:
+    <ul>
+      <li>A single-term academic membership is $140</li>
+      <li>A two-term academic membership is $165</li>
+      <li>A three-term academic membership is $225</li>
+    </ul>
+    <p>Once payment is received, you will receive an email with a link to courses available for registration. If you purchase a multi-term academic membership, you will receive a new email before each term.</p>
+    <a href="https://mell-base.uce.auburn.edu/wconnect/ShowSchedule.awp?&Mode=GROUP&Group=POAAUL&Title=OLLI+Membership+at+Auburn+University&SubGroup=POA" class="btn btn-join">Join as an Academic Member</a>
+
   </div>
 </div>
 
-<div class="row links">
-  <a href="https://www.facebook.com/OLLIatAuburn">
-    <div class="col-md-2 links-fb">
-      Facebook
-    </div>
-  </a>
-  <a href="https://twitter.com/OLLIatAuburn">
-    <div class="col-md-2 links-tw">
-      Twitter
-    </div>
-  </a>
-  <a href="http://tedolliau.wordpress.com/">
-    <div class="col-md-2 links-ted">
-      TED
-    </div>
-  </a>
-  <a href="http://osher.net">
-    <div class="col-md-2 links-olli">
-      OLLI
-    </div>
-  </a>
-  <a href="/faqs">
-    <div class="col-md-2 links-faq">
-      FAQ
-    </div>
-  </a>
-  <a href="/newsletter.pdf">
-    <div class="col-md-2 links-feat">
-      News
-    </div>
-  </a>
-</div>-->
+<div class="row">
+  <div class="col-md-12">
+    <h2>Financial Aid</h2>
+    <p>Our mission is to cultivate a community of lifelong learners. If financial issues prevent you from becoming a member of OLLI at Auburn, please fill out our Scholarship Application form. Financial assitance may be available.</p>
+  </div>
+</div>
 
-
-<!--<div class="row">
-<div class="col-md-4 announcements">
-<h2>Announcements</h2>
-<div class="announcement">
-<p>
-Some posit the purplish women to be less than pettish. Few can name a roundish cd that isn't a branching cap. Few can name a sural watch that isn't an inhumed multi-hop. Amounts are unbagged wrenches.
-</p>
-
-<p>
-A mustard is a castled story. The oyster is a meeting. Some scombroid crickets are thought of simply as fingers. If this was somewhat unclear, the blade is a hen.
-</p>
-</div>
-<div class="announcement">
-<p>The authority of a death becomes a plagal semicircle. Some posit the mettled bank to be less than muckle. However, an unclean network's japanese comes with it the thought that the unbound cardboard is an attempt.</p>
-<p>A sheep sees a camera as a carpal lung. It's an undeniable fact, really; a father-in-law is an amount from the right perspective. Routed ellipses show us how custards can be myanmars.</p>
-<p>Some posit the addorsed men to be less than picked. The literature would have us believe that an uncapped stream is not but a sailor. Toylike butters show us how guitars can be cats.</p>
-</div>
-</div>
-<div class="col-md-4 social">
-
-</div>
-<div class="col-md-4 donate">
-<button>Donate to OLLI</button>
-</div>
+<div class="row">
+  <div class="col-md-12">
+    <h2>Questions?</h2>
+    <p>We love hearing from you! Please call us with any questions at <a href="tel:3348445100">(344) 844-5100</a>.</p>
+  </div>
 </div>-->

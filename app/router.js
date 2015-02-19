@@ -11,6 +11,7 @@ Router.map(function() {
   this.route("courses");
   this.route("faqs");
   this.route("join");
+  this.route("calendar");
 });
 
 export default Router;
