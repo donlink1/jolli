@@ -12,6 +12,7 @@ Router.map(function() {
   this.route("faqs");
   this.route("join");
   this.route("calendar");
+  this.route("donate");
 });
 
 export default Router;
