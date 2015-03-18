@@ -15,7 +15,7 @@
   },
   "repository": "https://github.com/smockle/jolli",
   "engines": {
-    "node": ">= 0.10.x"
+    "node": ">= 0.10.0"
   },
   "author": "Clay Miller <clay@smockle.com>",
   "license": "ISC",
