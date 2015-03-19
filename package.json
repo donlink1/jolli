@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "ember serve --port=${PORT}",
+    "start": "./node_modules/ember-cli/bin/ember serve --port=${PORT}",
     "build": "ember build",
     "test": "ember test",
     "postinstall": "bower install"
