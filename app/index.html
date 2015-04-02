@@ -532,5 +532,28 @@
 </head>
 <body>
     {{content-for 'body'}}
+  <script>
+        (function () {
+            var cx = '013464300086854727103:pkx0mbshf6a';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+  </script>
+  <gcse:search></gcse:search>
+  <div id="avatar" class="avatar">
+  <div class="avatar-btn">
+    Need help?
+  </div>
+  <div class="avatar-bar">
+      <span class="avatar-helper-text">Hi! I'm here to help. </span>
+      <input type="text" id="searchText" placeholder="Type what you'd like help with." />
+      <span class="avatar-close">X</span>
+  </div>
+</div>
 </body>
 </html>
